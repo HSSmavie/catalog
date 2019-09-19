@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body class="big-success">
+	<form action="" method="post">
+		<div class='container'>
+			<div class="mt-5" ><h2> please enter new dataa</h2></div>
+	<div class="form-group.col-md-6">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" class="form-control" required="required">
+	</div>
+	<div class="form-group.col-md-6">
+		<label for="surname">SurName</label>
+		<input type="text" name="surname" id="surname" class="form-control" required="required">
+	</div>
+	<div class="form-group.col-md-6">
+		<label for="mobile">mobile</label>
+		<input type="text" name="mobile" id="mobile" class="form-control" required="required">
+	</div>
+	<div class="form-group.col-md-6">
+		<label for="email">email</label>
+		<input type="text" name="email" id="email" class="form-control" required="required">
+	</div>
+	<div class="form-group.col-md-6">
+		<label for="branch">branch</label>
+		<input type="text" name="branch" id="branch" class="form-control" required="required">
+	</div>
+	<div class="form-group.col-md-6">
+		<label for="roll">role</label>
+		<input type="text" name="roll" id="roll" class="form-control" required="required">
+	</div>
+	<div class="form-group.col-md-6">
+		<input type="submit" name="submit" id="submit" class="form-control" rewuired="required">
+	</div>
+<div class="container ml-5 text-center"
+	<div class="form-group">
+		<button type="submit" class="btn btn-success ml-5">Submit</button>
+		<button type="button" class="btn btn-warning"><a href="{{url_for('showData')}}">cancel</a></button>
+	</div>
